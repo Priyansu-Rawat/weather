@@ -18,7 +18,7 @@ document.querySelector('button').addEventListener('click',()=>{
                               `
 }
 
-    const prom = fetch(`https://api.weatherapi.com/v1/current.json?key=392d7fe780584f24b3b155650252210&q=${place}&aqi=yes`)
+    const prom = fetch(`https://api.weatherapi.com/v1/current.json?key=392d7fe780584f24b3b155650252210&q=London&aqi=yes`)
     
 
 
